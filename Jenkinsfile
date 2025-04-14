@@ -1,8 +1,8 @@
 pipeline{
     agent any
-    enviornment{
-        //Credentials Here
-    }
+    // enviornment{
+    //     //Credentials Here
+    // }
     stages{
         stage('clone code'){
             steps{
