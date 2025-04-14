@@ -9,7 +9,7 @@ pipeline{
                 checkout scm
             }
         }
-        stages("installing Dependency"){
+        stage("installing Dependency"){
             steps{
                 sh 'npm install'
                 sh 'node app.js'
